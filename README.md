@@ -4,12 +4,14 @@
 
 ### A Curated Semester-wise Digital Library of My Bachelor's Journey in Computer Science
 [
-<img src="assets/Banner.png" width="100%">](https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/banner.png)
+<p align="center">
+  <img src="./assets/Banner.png" alt="Repository Banner" width="100%">
+</p>
 
-![GitHub last commit](https://img.shields.io/github/last-commit/USERNAME/BSc-Computer-Science-Knowledge-Hub?style=for-the-badge)
-![GitHub repo size](https://img.shields.io/github/repo-size/USERNAME/BSc-Computer-Science-Knowledge-Hub?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/USERNAME/BSc-Computer-Science-Knowledge-Hub?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/USERNAME/BSc-Computer-Science-Knowledge-Hub?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/Saipreetam2228/BSc-Computer-Science-Knowledge-Hub?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/Saipreetam2228/BSc-Computer-Science-Knowledge-Hub?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/Saipreetam2228/BSc-Computer-Science-Knowledge-Hub?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Saipreetam2228/BSc-Computer-Science-Knowledge-Hub?style=for-the-badge)
 ![Made with Love](https://img.shields.io/badge/Made%20With-%E2%9D%A4-red?style=for-the-badge)
 
 </div>
