@@ -3,8 +3,8 @@
 # 🎓 BSc Computer Science Knowledge Hub
 
 ### A Curated Semester-wise Digital Library of My Bachelor's Journey in Computer Science
-
-<img src="assets/Banner.png" width="100%">
+[
+<img src="assets/Banner.png" width="100%">](https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/banner.png)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/USERNAME/BSc-Computer-Science-Knowledge-Hub?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/USERNAME/BSc-Computer-Science-Knowledge-Hub?style=for-the-badge)
