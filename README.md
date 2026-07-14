@@ -4,7 +4,7 @@
 
 ### A Curated Semester-wise Digital Library of My Bachelor's Journey in Computer Science
 
-<img src="assets/banner.png" width="100%">
+<img src="assets/Banner.png" width="100%">
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/USERNAME/BSc-Computer-Science-Knowledge-Hub?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/USERNAME/BSc-Computer-Science-Knowledge-Hub?style=for-the-badge)
