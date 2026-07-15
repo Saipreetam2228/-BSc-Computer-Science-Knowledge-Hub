@@ -1,0 +1,21 @@
+DONE 2 q's from sentence problems using properties
+6 q's from examples of proofs
+DONE 2 q's from sentence problems of quantifiers.
+total 10 
+by saturday evng
+
+vacous and trival proofs
+ p-> q is true when we know p is false
+consequntly we can show that p is false 
+[nothing is there to prove] vacous
+
+we can also prove the conditional statement p-> q if we 
+know that the conclusion q is true by showing q is true
+is follows p->q must also be true
+
+trival
+
+proof by cinttradiction
+ method of proof exploits the fact that p->q is true ifnd only if
+p^ is false
+[derived from demorgans  law and the  equivalence of p->q to (~p)vq]
