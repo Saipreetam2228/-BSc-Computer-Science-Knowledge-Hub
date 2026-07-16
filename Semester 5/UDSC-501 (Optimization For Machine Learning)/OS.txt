@@ -1,0 +1,281 @@
+🧠 1. Which of the following are responsibilities of an operating system?
+A. Memory Management
+B. File Management
+C. Compiler Execution
+D. Process Management
+✅ Correct Answers: A, B, D
+
+🧠 2. What is the primary purpose of an operating system?
+A. Make the computer easier to use
+B. Allocate system resources efficiently
+C. Translate high-level code to machine code
+D. Provide a user interface
+✅ Correct Answers: A, B, D
+
+🧠 3. Which of the following are types of user interfaces provided by an OS?
+A. API
+B. GUI
+C. CLI
+D. PCI
+✅ Correct Answers: B, C
+
+🧠 4. Which components of an OS handle memory allocation?
+A. Loader
+B. Memory Manager
+C. File System
+D. Scheduler
+✅ Correct Answers: B
+
+🧠 5. Which of these are examples of multitasking?
+A. Printing a document while browsing the web
+B. Using Excel while downloading a file
+C. Compiling code in Notepad
+D. Playing a video while writing a report
+✅ Correct Answers: A, B, D
+
+🧠 6. Which features of the OS are essential for resource management?
+A. Scheduling
+B. File Compression
+C. Deadlock Handling
+D. Paging
+✅ Correct Answers: A, C, D
+
+🧠 7. What role does the device driver play in an operating system?
+A. Translates device signals for the OS
+B. Helps OS communicate with hardware
+C. Encrypts user data
+D. Manages storage
+✅ Correct Answers: A, B
+
+🧠 8. Virtual memory is a feature that allows the OS to:
+A. Use disk space as additional RAM
+B. Speed up the CPU
+C. Run large applications with insufficient RAM
+D. Disable multitasking
+✅ Correct Answers: A, C
+
+🧠 9. Which of these are types of Operating Systems?
+A. Batch OS
+B. Multitasking OS
+C. Compiler OS
+D. Distributed OS
+✅ Correct Answers: A, B, D
+
+🧠 10. Which of these are examples of process states?
+A. New
+B. Ready
+C. Printed
+D. Terminated
+✅ Correct Answers: A, B, D
+
+🧠 11. Which OS feature helps prevent unauthorized access?
+A. Paging
+B. User Authentication
+C. Access Control
+D. File Sharing
+✅ Correct Answers: B, C
+
+🧠 12. Which of the following are types of scheduling?
+A. Round Robin
+B. Shortest Job First (SJF)
+C. Demand Paging
+D. First-Come First-Served (FCFS)
+✅ Correct Answers: A, B, D
+
+🧠 13. In file management, the OS provides:
+A. File creation and deletion
+B. Disk formatting
+C. File protection
+D. File sorting alphabetically
+✅ Correct Answers: A, C
+
+🧠 14. The OS kernel is responsible for:
+A. Managing system resources
+B. Providing a GUI
+C. Handling system calls
+D. Compiling user programs
+✅ Correct Answers: A, C
+
+🧠 15. Which of these tasks are performed by the I/O management system?
+A. Buffering
+B. Spooling
+C. Paging
+D. Caching
+✅ Correct Answers: A, B, D
+
+🧠 16. Error detection in an OS includes:
+A. Monitoring memory
+B. Detecting power failure
+C. Logging file access history
+D. Detecting illegal instructions
+✅ Correct Answers: A, D
+
+🧠 17. A distributed OS:
+A. Runs only on mobile phones
+B. Manages multiple computers as one system
+C. Requires internet access always
+D. Shares computing tasks over a network
+✅ Correct Answers: B, D
+
+🧠 18. Which of the following are advantages of using an OS?
+A. Security
+B. Efficient resource utilization
+C. Increased hardware cost
+D. User-friendly interface
+✅ Correct Answers: A, B, D
+
+🧠 19. Which of the following mechanisms can help in synchronization?
+A. Semaphores
+B. Monitors
+C. Paging
+D. Mutex
+✅ Correct Answers: A, B, D
+
+🧠 20. Which of the following OS can be used on mobile devices?
+A. Android
+B. Windows 11
+C. iOS
+D. Fedora
+✅ Correct Answers: A, C
+
+🧠 21. Which are examples of system calls in an OS?
+A. fork()
+B. printf()
+C. exec()
+D. open()
+✅ Correct Answers: A, C, D
+(printf() is a library call, not a system call.)
+
+🧠 22. What are the main functions of the kernel in an OS?
+A. Memory management
+B. Process scheduling
+C. Power supply control
+D. File system access
+✅ Correct Answers: A, B, D
+
+🧠 23. Which of the following are examples of Real-Time Operating Systems (RTOS)?
+A. Windows XP
+B. VxWorks
+C. FreeRTOS
+D. Ubuntu
+✅ Correct Answers: B, C
+
+🧠 24. A deadlock can occur if these conditions hold simultaneously:
+A. Mutual exclusion
+B. Preemption
+C. Hold and wait
+D. Circular wait
+✅ Correct Answers: A, C, D
+
+🧠 25. What are common causes of deadlock in an OS?
+A. Multiple processes holding resources
+B. Unlimited memory
+C. Improper resource allocation
+D. Process termination
+✅ Correct Answers: A, C
+
+🧠 26. Which are memory allocation methods in an OS?
+A. Contiguous allocation
+B. Paging
+C. Spooling
+D. Segmentation
+✅ Correct Answers: A, B, D
+
+🧠 27. Which of the following are advantages of virtual memory?
+A. Runs larger programs than RAM
+B. Improved CPU speed
+C. Isolates process memory
+D. More efficient multitasking
+✅ Correct Answers: A, C, D
+
+🧠 28. Which of the following are attributes of a file?
+A. File size
+B. File type
+C. File permissions
+D. File scheduling
+✅ Correct Answers: A, B, C
+
+🧠 29. Which methods are used for CPU scheduling?
+A. Shortest Remaining Time First (SRTF)
+B. Multilevel Queue
+C. Segmentation
+D. Priority Scheduling
+✅ Correct Answers: A, B, D
+
+🧠 30. The OS helps manage concurrency using:
+A. Thread scheduling
+B. Deadlock prevention
+C. Compilers
+D. Semaphores
+✅ Correct Answers: A, B, D
+
+🧠 31. Which of the following are types of I/O operations?
+A. Programmed I/O
+B. Interrupt-driven I/O
+C. Direct Memory Access (DMA)
+D. Fragmented I/O
+✅ Correct Answers: A, B, C
+
+🧠 32. What are benefits of a multiprogramming OS?
+A. Increased throughput
+B. Better CPU utilization
+C. No need for memory
+D. Supports one process at a time
+✅ Correct Answers: A, B
+
+🧠 33. What is the role of a scheduler in OS?
+A. Allocates CPU to processes
+B. Allocates memory to the file system
+C. Determines order of execution
+D. Terminates unused files
+✅ Correct Answers: A, C
+
+🧠 34. In the context of memory, fragmentation refers to:
+A. Wasted memory space
+B. Memory being divided into small holes
+C. Secure memory access
+D. Memory sharing
+✅ Correct Answers: A, B
+
+🧠 35. What are types of fragmentation in memory management?
+A. External fragmentation
+B. Internal fragmentation
+C. Spatial fragmentation
+D. Logical fragmentation
+✅ Correct Answers: A, B
+
+🧠 36. Swapping is a process in which:
+A. Process is moved from RAM to disk
+B. Process is terminated immediately
+C. CPU is swapped with disk
+D. RAM is extended using virtual memory
+✅ Correct Answers: A, D
+
+🧠 37. Which are components of a file system?
+A. File structure
+B. Directory structure
+C. File permissions
+D. Disk compilers
+✅ Correct Answers: A, B, C
+
+🧠 38. The booting process of an OS involves:
+A. Loading kernel into memory
+B. Formatting the hard drive
+C. Power-on self-test (POST)
+D. Starting system services
+✅ Correct Answers: A, C, D
+
+🧠 39. Which of the following are characteristics of a distributed OS?
+A. Shares memory only
+B. Improves resource sharing
+C. Appears as a single system
+D. Needs special distributed hardware
+✅ Correct Answers: B, C
+
+🧠 40. Which security features are typically handled by an OS?
+A. User login authentication
+B. Memory protection
+C. Biometric scanning hardware
+D. Access control lists (ACLs)
+✅ Correct Answers: A, B, D
+
