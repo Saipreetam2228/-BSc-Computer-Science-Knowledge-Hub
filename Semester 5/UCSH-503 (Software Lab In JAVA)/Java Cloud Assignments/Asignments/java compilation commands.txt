@@ -1,0 +1,2 @@
+javac(space)filename.java
+java(space)filename
