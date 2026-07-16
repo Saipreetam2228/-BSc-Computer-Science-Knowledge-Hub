@@ -1,0 +1,167 @@
+/* ===== Student Portfolio & Admission Form Styling ===== */
+/* Enhanced but Academic – Offline Safe */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #eef2f7, #f9fbfd);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Page title */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+/* Section titles */
+h2 {
+    color: #1e6f9f;
+    margin-top: 30px;
+    border-left: 5px solid #1e6f9f;
+    padding-left: 10px;
+}
+
+/* Intro & footer text */
+p {
+    text-align: center;
+    font-size: 15px;
+    color: #555;
+}
+
+/* Divider */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+/* Card layout for content */
+form,
+.profile-card {
+    background-color: #ffffff;
+    max-width: 650px;
+    margin: 25px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Focus effect */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #1e6f9f;
+    background-color: #f4f9fd;
+}
+
+/* Radio & checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+/* Textarea */
+textarea {
+    resize: vertical;
+}
+
+/* Buttons */
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Submit */
+input[type="submit"] {
+    background-color: #1e6f9f;
+    color: #fff;
+}
+
+/* Reset */
+input[type="reset"] {
+    background-color: #777;
+    color: #fff;
+}
+
+/* Hover */
+input[type="submit"]:hover {
+    background-color: #155a80;
+}
+
+input[type="reset"]:hover {
+    background-color: #555;
+}
+
+/* Lists (for profile page) */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f2f6fb;
+    margin: 8px 0;
+    padding: 10px;
+    border-left: 4px solid #1e6f9f;
+    border-radius: 4px;
+}
+
+/* Tables (profile page) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #1e6f9f;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Footer */
+body > p:last-child {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    color: #555;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Student Admission Form</title>
+</head>
+
+<body>
+
+<h1> Online Student Admission Form</h1>
+<p>
+    Apply for Admission by filling the form below.
+</p>
+
+<hr> <!--Divider to seperate the things.-->
+
+<!--The core of HTML form syntax involves the <form> element acting as 
+a container for various interactive controls (input fields, buttons, etc.). -->
+
+<form>
+
+    <h2>Personal Information</h2>
+
+    <!--<label> is used to describe an input field
+        <br> is used to move the content to the next line.”
+     
+    <label>Full Name:</label>
+    <input type="text">
+
+    int ADV:
+    -->
+
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter Full Name"><br><br>
+
+    <label for="age">age:</label><br>
+    <!-- age limit
+    <input type = "number" id="age" min="17" max="30"><br><br>
+     -->
+    <input type="number" id="age"><br><br>
+
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob"><br><br>
+
+    <input type="radio" name="gender" id="male">
+    <label for="male">Male</label>
+
+    <input type="radio" name="gender" id="female">
+    <label for="female">Female</label>
+
+    <input type="radio" name="gender" id="other">
+    <label for="other">Other</label>
+    <br><br>
+
+    <h2>Contact Details</h2>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" placeholder="example@mail.com"><br><br>
+
+    <label for="phone">Mobile Number:</label><br>
+    <input type="tel" id="phone" placeholder="Enter mobile number"><br><br>
+
+    <h2>Academic Information</h2>
+
+    <label for="course">Select Course:</label><br>
+    <select id="course">
+        <option>B.Sc Computer Science</option>
+        <option>BCA</option>
+        <option>B.Sc Mathematics</option>
+        <option>B.Sc Physics</option>
+    </select>
+    <br><br>
+
+    <label>Skills:</label><br>
+    <input type="checkbox" id="prog">
+    <label for="prog">Programming</label>
+
+    <input type="checkbox" id="web">
+    <label for="web">Web Development</label>
+
+    <input type="checkbox" id="logic">
+    <label for="logic">Problem Solving</label>
+    <br><br>
+
+    <label for="reason"> Why should we abmit you? </label><br>
+    <textarea id="reason" rows="4" cols="40" placeholder="Write Briefly..."></textarea><br><br>
+
+    <label for="photo">Upload Photograph:</label><br>
+    <input type="file" id="photo"><br><br>
+
+    <input type="checkbox" id="declare">
+    <label for="declare">
+        I hereby declare that the above information is true to the best of my knowledge.
+    </label>
+    <br><br>
+
+    <input type="submit" value="Apply for Admission">
+    <input type="reset" value="Clear Form">
+
+</form>
+
+<hr>
+
+<p>
+    &copy; 2025 Student Admission Portal<br>
+    Designed by A. Sai Preetam
+</p>
+
+</body>
+</html>

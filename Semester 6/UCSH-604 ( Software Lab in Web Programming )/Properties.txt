@@ -1,0 +1,96 @@
+@@@ Html properties:  @@@
+
+Button:
+1) to change the color when its selected !not clicked.
+   [cass file name] :hover{
+       background-color:red;
+   }
+ex:- .subscribe-button: hover{
+       background-color:red;
+}
+
+2) To change the color of the button when its clicked
+    [class file name]:active{
+        background-color: blue;
+    }
+ex:.subscribe-button: active{
+       background-color:red;
+}
+
+3) To make it dull when its selected  
+for both [selected] and [clicked] range (0-1)
+ex:.subscribe-button: active{
+         opacity: 0.3;
+}  
+4) To make fade transition
+ex:-  transition: background-color 0.5s,
+        color 0.5s;
+
+5) Select to change the opacity at tht time in the main css code
+ex: transition: opacity 0.15s;
+
+6)To make shadow for the button 
+ex:  original and realistic [rgba 4 pramerters]
+           box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.15);
+      rgb normla [2px - bottom,3px - right , 10px blur]
+      box-shadow: 2px 3px 10px rgb(10,15,86);
+
+7) HTML entity (middle dot) and (check mark)
+-> google ans search: &#183; = middle dot
+	               %#10003; = check mark
+
+8) Tip instead of setting all paragraphs styles to arial;
+    we can actually set everything as one in the style section 
+common to everyone ; instead putting to every class names
+Syntax= p{
+	font-family: Arial;
+	}
+instead: <p>  font-family: Arial;  </p>
+
+9) CSS Specificity :
+  if we hve multiple lines  having the same property , then the 
+browsers follows 
+ex:
+ p{      # 1 selector
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+---   ----  ----  ----  ----
+ex:
+.video-stats{      #2 selector of a particular class  
+        font-size: 14px;
+        color: rgb(96,96,96);
+    }
+#  Therefore th selector thats more specific has higher priority
+-> therefor the selector 2 has a higher prority with the sepecific class 
+and therefore the selector 1 targets all the paragraphs on the page.
+
+10) CSS Text underline
+ 	text-decoration: underline;
+
+11)Text Element (styling the prticular thing)
+ex: <p >
+    Shop early for the <strong> best selection</strong> of holiday favourites. 
+    Shop now &#62;
+</p>  # best selection will be bold
+
+->  <u>  holiday </u> # makes underlined word
+->  <span> Shop now </span> # maked nothing (defult) 
+     but then this span will be usefull to modify in our own way 
+     by <span class=" [class-name]" ;
+      in css make stylings
+
+12) Link elements (Void)
+-> <link> # doesnt need closing tag
+	#it  takes two attributes.
+	  1) rel  = relation to link
+	  2) herf  =  	
+  # maily this link elements tells that [what file we are goona link to this file !]
+  # inside head tag i  think 
+Syntax: <link rel="stylesheet" href="buttons.css">
+NOTE:- file name should be same for both css and html,
+           - it should be in the same folder [near to the file]
+         -> Incase if it is inside a folder called style then :
+	place the path  in the same code with the slash '/'
+	Ex: <link rel="stylesheet" href="style/buttons.css">

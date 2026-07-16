@@ -1,0 +1,4 @@
+1) plain html page including all possible tags and all possible attributes.
+2) HTML page with form tag(Input tags).
+3)All possible HTML5 tags.
+4) Text file that shows all the used tags in each of the above HTML files.

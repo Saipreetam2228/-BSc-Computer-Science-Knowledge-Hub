@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Admission Form</title>
+    <!-- Linking external CSS file -->
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+
+    <h1>Online Student Admission Form</h1>
+
+    <p>Apply for Admission by filling the form below.</p>
+
+    <hr>
+
+    <form id="admissionForm">
+
+        <h2>Personal Information</h2>
+
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter Full Name"><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age"><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+
+        <input type="radio" name="gender" id="other">
+        <label for="other">Other</label>
+
+        <br><br>
+
+        <h2>Contact Details</h2>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="example@mail.com"><br><br>
+
+        <label for="phone">Mobile Number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Enter mobile number"><br><br>
+
+        <h2>Academic Information</h2>
+
+        <label for="course">Select Course:</label><br>
+        <select id="course" name="course">
+            <option>B.Sc Computer Science</option>
+            <option>BCA</option>
+            <option>B.Sc Mathematics</option>
+            <option>B.Sc Physics</option>
+        </select>
+
+        <br><br>
+
+        <label>Skills:</label><br>
+        <input type="checkbox" id="prog">
+        <label for="prog">Programming</label>
+
+        <input type="checkbox" id="web">
+        <label for="web">Web Development</label>
+
+        <input type="checkbox" id="logic">
+        <label for="logic">Problem Solving</label>
+
+        <br><br>
+
+        <label for="reason">Why should we admit you?</label><br>
+        <textarea id="reason" rows="4" cols="40" placeholder="Write briefly..."></textarea>
+
+        <br><br>
+
+        <label for="photo">Upload Photograph:</label><br>
+        <input type="file" id="photo"><br><br>
+
+        <input type="checkbox" id="declare">
+        <label for="declare">I hereby declare that the above information is true to the best of my knowledge.</label>
+
+        <br><br>
+
+        <input type="submit" value="Apply for Admission">
+        <input type="reset" value="Clear Form">
+
+    </form>
+
+    <hr>
+
+    <p>
+        &copy; 2025 Student Admission Portal<br>
+        Designed by A. Sai Preetam
+    </p>
+
+    <!-- Linking external JavaScript file at the end of body -->
+    <script src="task2.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!-- Declares HTML5 document -->
+
+<html lang="en">
+<!-- Root tag of the HTML document -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Character encoding -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Responsive design -->
+
+    <title>HTML Lab Practical</title>
+    <!-- Title shown on browser tab -->
+</head>
+
+<body style="font-family: Arial; background-color: #f4f4f4;">
+
+    <!-- ================= HEADER ================= -->
+    <header>
+        <h1 id="top">HTML Practical Demonstration</h1>
+        <p>This page demonstrates most commonly used HTML tags and attributes.</p>
+        <hr>
+    </header>
+
+    <!-- ================= NAVIGATION ================= -->
+    <nav>
+        <a href="#text">Text</a> |
+        <a href="#list">Lists</a> |
+        <a href="#table">Table</a> |
+        <a href="#form">Form</a>
+    </nav>
+
+    <hr>
+
+    <!-- ================= TEXT FORMATTING ================= -->
+    <section id="text">
+        <h2>Text Formatting Tags</h2>
+
+        <p>This is a <b>bold</b> text.</p>
+        <p>This is an <i>italic</i> text.</p>
+        <p>This is an <u>underlined</u> text.</p>
+        <p>This is <strong>important</strong> text.</p>
+        <p>This is <em>emphasized</em> text.</p>
+        <p>This is <mark>highlighted</mark> text.</p>
+        <p>H<sub>2</sub>O and x<sup>2</sup></p>
+
+        <br>
+        <small>This is small text</small>
+    </section>
+
+    <hr>
+
+    <!-- ================= LISTS ================= -->
+    <section id="list">
+        <h2>Lists</h2>
+
+        <!-- Unordered List -->
+        <h3>Unordered List</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <!-- Ordered List -->
+        <h3>Ordered List</h3>
+        <ol>
+            <li>Frontend</li>
+            <li>Backend</li>
+            <li>Database</li>
+        </ol>
+
+        <!-- Description List -->
+        <h3>Description List</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hyper Text Markup Language</dd>
+        </dl>
+    </section>
+
+    <hr>
+
+    <!-- ================= IMAGE & LINK ================= -->
+    <section>
+        <h2>Image and Hyperlink</h2>
+
+        <img src="https://via.placeholder.com/150"
+             alt="Sample Image"
+             width="150"
+             height="150">
+
+        <br><br>
+
+        <a href="https://www.google.com" target="_blank" title="Go to Google">
+            Visit Google
+        </a>
+    </section>
+
+    <hr>
+
+    <!-- ================= TABLE ================= -->
+    <section id="table">
+        <h2>Table</h2>
+
+        <table border="1" cellpadding="10">
+            <caption>Student Details</caption>
+
+            <tr>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Age</th>
+            </tr>
+
+            <tr>
+                <td>Sai</td>
+                <td>CSE</td>
+                <td>21</td>
+            </tr>
+
+            <tr>
+                <td>Ravi</td>
+                <td>ECE</td>
+                <td>22</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- ================= FORM ================= -->
+    <section id="form">
+        <h2>Form</h2>
+
+        <form action="#" method="post">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <br><br>
+
+            <label>Skills:</label>
+            <input type="checkbox"> HTML
+            <input type="checkbox"> CSS
+            <br><br>
+
+            <label for="course">Course:</label>
+            <select id="course">
+                <option>CSE</option>
+                <option>ECE</option>
+                <option>MECH</option>
+            </select>
+            <br><br>
+
+            <textarea rows="4" cols="30" placeholder="Enter message"></textarea>
+            <br><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <p>&copy; 2025 HTML Lab Practical</p>
+        <a href="#top">Go to Top</a>
+    </footer>
+
+</body>
+</html>
