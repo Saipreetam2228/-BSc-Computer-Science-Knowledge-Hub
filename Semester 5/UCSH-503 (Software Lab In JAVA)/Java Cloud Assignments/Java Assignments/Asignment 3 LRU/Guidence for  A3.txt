@@ -1,0 +1,38 @@
+Sairam Brothers,
+
+Here (PFA) is the assignment for this week. The following are the java concepts that you need to know before attempting this assignment. Will be slightly more difficult than the previous one that we tried and solved in class. I'm sure all of you people will be able to crack this one!
+
+Please let me know proactively in case there are problems solving this assignment.
+
+
+Regards,
+Pranav
+
+
+
+
+To solve the LRU Cache problem (the medium-level Google-style one), students need to be comfortable with these Java concepts.
+
+    Classes & Objects → defining custom classes (LRUCache, Node).
+
+    Constructors → initializing objects with capacity.
+
+    Access Modifiers → keeping fields private, exposing methods public.
+
+    Generics → LRUCache<K, V> should work with any type. Java Tutorials - https://docs.oracle.com/javase/tutorial/java/generics/index.html
+
+    Inheritance (basic OOP design thinking) → not directly required, but helpful for extensibility.
+
+    Interfaces (optional) → could implement Map<K,V>-like interface for clean design.
+
+    Arrays vs. Collections → here: HashMap for O(1) lookup.
+
+    Linked Data Structures → building a doubly-linked list manually.
+
+    Exception Handling → throw IllegalArgumentException for invalid capacity.
+
+    Packages & Imports → using java.util.HashMap.
+
+    Encapsulation & Abstraction → hide internal details (Node class private).
+
+    Control Structures → if-else, while, etc., for cache logic.

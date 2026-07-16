@@ -1,0 +1,6 @@
+You are given a task to produce sound from java code. Please complete the task as per the assignment instructions attached to secure 100/100 in your CIEs. Your code will be scrutinized heavily and everyone submitting this code will be individually questioned (one on one) and any lack of clarity in answering will disqualify you from this opportunity of getting 100/100 (and will face severe penalty for plagiarism) in the CIEs. The questions will range from Java concepts used in your implementation and the clarity you have in using the javax.sound.midi package.
+
+This opportunity is strictly for this batch of students present in this email thread as recipients. Others will not be participating in this project. They will be included in a different project.
+
+Please find the .class file that I have compiled.
+java PlayNote; this command should play the notes as per the logic that I have written.
