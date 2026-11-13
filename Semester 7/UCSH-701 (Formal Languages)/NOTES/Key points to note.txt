@@ -1,0 +1,5 @@
+ to run the jflap in pc
+
+-> 
+java -jar JFLAP7.jar
+
